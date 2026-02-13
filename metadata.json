@@ -1,0 +1,8 @@
+{
+  "name": "DevFlow - Professional Portfolio",
+  "description": "A high-performance, conversion-focused portfolio for a senior web developer, featuring glassmorphism design, interactive animations, and AI-driven career insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
