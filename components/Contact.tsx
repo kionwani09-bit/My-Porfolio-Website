@@ -39,14 +39,15 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase">Email</p>
-                  <p className="text-slate-200">hello@devflow.com</p>
+                  <p className="text-slate-200">richardremo09@gmail.com</p>
                 </div>
               </a>
               <div className="flex gap-4 pt-4">
-                <a href="#" className="w-12 h-12 glass rounded-2xl flex items-center justify-center hover:bg-indigo-600 hover:text-white transition-all">
+                
+                <a href="https://www.linkedin.com/in/richard-remo-a8866035a/" target="_blank" className="w-12 h-12 glass rounded-2xl flex items-center justify-center hover:bg-indigo-600 hover:text-white transition-all">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="#" className="w-12 h-12 glass rounded-2xl flex items-center justify-center hover:bg-slate-800 hover:text-white transition-all">
+                <a href="https://github.com/kionwani09-bit" target="_blank" className="w-12 h-12 glass rounded-2xl flex items-center justify-center hover:bg-slate-800 hover:text-white transition-all">
                   <Github className="w-6 h-6" />
                 </a>
               </div>
@@ -72,7 +73,7 @@ const Contact: React.FC = () => {
                     required
                     type="text" 
                     className="w-full bg-slate-900 border border-white/10 rounded-2xl p-4 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 transition-all"
-                    placeholder="John Doe"
+                    placeholder="Enter Your Name"
                     value={formState.name}
                     onChange={(e) => setFormState({ ...formState, name: e.target.value })}
                   />
@@ -83,7 +84,7 @@ const Contact: React.FC = () => {
                     required
                     type="email" 
                     className="w-full bg-slate-900 border border-white/10 rounded-2xl p-4 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 transition-all"
-                    placeholder="john@example.com"
+                    placeholder="Enter Your Email"
                     value={formState.email}
                     onChange={(e) => setFormState({ ...formState, email: e.target.value })}
                   />

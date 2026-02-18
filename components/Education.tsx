@@ -12,9 +12,6 @@ const Education: React.FC = () => {
             <h2 className="text-indigo-400 font-bold tracking-widest uppercase text-sm">Academic Journey</h2>
             <h3 className="text-4xl md:text-5xl font-bold">Educational <span className="text-slate-500">Background</span></h3>
           </div>
-          <p className="text-slate-400 max-w-md text-sm md:text-right italic">
-            "Education is the foundation upon which we build our future through code."
-          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-8">

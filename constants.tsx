@@ -47,35 +47,52 @@ export const SKILLS: SkillCategory[] = [
   {
     title: 'Frontend Mastery',
     skills: [
-      { name: 'React/Next.js', level: 95, icon: 'atom' },
-      { name: 'TypeScript', level: 90, icon: 'file-code' },
-      { name: 'Tailwind CSS', level: 98, icon: 'wind' },
-      { name: 'Framer Motion', level: 85, icon: 'move' }
+      { name: 'React/Next.js', level: 88, icon: 'atom' },
+      { name: 'TypeScript', level: 85, icon: 'file-code' },
+      { name: 'Tailwind CSS', level: 90, icon: 'wind' },
+      { name: 'Framer Motion', level: 80, icon: 'move' }
     ]
   },
   {
     title: 'Backend & DevOps',
     skills: [
-      { name: 'Node.js/Express', level: 92, icon: 'server' },
-      { name: 'PostgreSQL/MongoDB', level: 88, icon: 'database' }
+      { name: 'Node.js/Express', level: 85, icon: 'server' },
+      { name: 'PostgreSQL/MongoDB', level: 80, icon: 'database' }
     ]
   },
   {
     title: 'Design & Workflow',
     skills: [
       { name: 'Figma', level: 85, icon: 'figma' },
-      { name: 'System Design', level: 90, icon: 'layout' },
-      { name: 'Agile/Scrum', level: 95, icon: 'users' }
+      { name: 'System Design', level: 80, icon: 'layout' },
+      { name: 'Agile/Scrum', level: 90, icon: 'users' }
     ]
   }
 ];
 
 export const EXPERIENCE: Experience[] = [
+
+  //ElseSoft Limited - Kampala, Uganda (2025 - Present) - Full Stack Developer
   {
     id: 'w1',
-    company: 'TechFlow Systems',
-    role: 'Lead Web Developer',
-    period: '2023 - Present',
+    company: 'ElseSoft Limited - Kampala, Uganda',
+    role: 'Full Stack Developer',
+    period: '2025 - Present',
+     description: 'Crafted high-performance user interfaces for high-traffic  media platforms.',
+    achievements: [
+      'Optimized Core Web Vitals for major retail clients, leading to a 15% boost in SEO rankings.',
+      'Developed a reusable UI component library used across 12 different projects.',
+      'Spearheaded the migration from legacy Redux to modern React Query.'
+    ],
+    tech: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3']
+  },
+  
+  //Halvek Technologies - Kampala, Uganda (2024 - 2025) - Web Developer
+  {
+    id: 'w2',
+    company: 'Halvek Technologies - Kampala, Uganda',
+    role: 'Web Developer',
+    period: '2024 - 2025',
     description: 'Leading a cross-functional team of 6 engineers to build scalable SaaS solutions for international clients.',
     achievements: [
       'Architected a micro-frontend solution that reduced bundle sizes by 40%.',
@@ -84,85 +101,37 @@ export const EXPERIENCE: Experience[] = [
     ],
     tech: ['Next.js', 'TypeScript', 'AWS', 'Docker']
   },
-  {
-    id: 'w2',
-    company: 'PixelPerfect Agency',
-    role: 'Senior Frontend Engineer',
-    period: '2021 - 2023',
-    description: 'Crafted high-performance user interfaces for high-traffic e-commerce and media platforms.',
-    achievements: [
-      'Optimized Core Web Vitals for major retail clients, leading to a 15% boost in SEO rankings.',
-      'Developed a reusable UI component library used across 12 different projects.',
-      'Spearheaded the migration from legacy Redux to modern React Query.'
-    ],
-    tech: ['React', 'Tailwind CSS', 'Redux Toolkit', 'Jest']
-  },
-  {
-    id: 'w3',
-    company: 'StartUp Hub',
-    role: 'Full Stack Developer',
-    period: '2019 - 2021',
-    description: 'Built MVPs and rapidly iterated on features for early-stage tech startups.',
-    achievements: [
-      'Built a real-time messaging engine using WebSockets and Node.js.',
-      'Integrated multiple third-party APIs for payment processing and analytics.',
-      'Transitioned application from a monolith to a serverless architecture.'
-    ],
-    tech: ['Node.js', 'Express', 'MongoDB', 'React Native']
-  }
+
 ];
 
 export const EDUCATION: Education[] = [
+  //Uganda Institute of Communication Technology (2025 - 2027) - Diploma in Computer Science
   {
     id: 'e1',
-    institution: 'University of Technology',
-    degree: 'B.Sc. in Computer Science',
-    period: '2019 - 2023',
-    description: 'Focused on software engineering, algorithms, and advanced web technologies.',
+    institution: 'Uganda Institute of Communication Technology',
+    degree: 'Diploma in Computer Science',
+    period: '2025 - 2027',
+    description: 'Comprehensive program focused on software engineering, algorithms, and advanced web technologies. Coursework emphasized scalable system design, algorithmic optimization, and modern full-stack development practices.',
     achievements: [
-      'Dean’s List for Academic Excellence',
-      'Lead Developer for University Tech Club',
-      'Completed specialized track in Full-Stack Systems'
+        'Completed specialized track in Full-Stack Systems',
+        'Developed a full-stack web application implementing complex data structures and real-time features'
+    ]
+  },
+
+  //namasuba college of commerce (2023 - 2024) - Certificate in Computer Science
+  {
+    id: 'e2',
+    institution: 'Namasuba College of Commerce',
+    degree: 'Certificate in Computer Science',
+    period: '2023 - 2024',
+    description: 'Introductory program focused on software engineering, algorithms, and advanced web technologies. Covered foundational programming principles, basic algorithmic thinking, and modern web development concepts.',
+    achievements: [
+      'Completed specialized track in Full-Stack Systems',
+      'Built a responsive web application as a capstone project, applying core algorithms and engineering principles'
     ]
   }
 ];
 
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    id: '1',
-    name: 'Sarah Jenkins',
-    role: 'CTO',
-    company: 'FinLeap',
-    content: 'An absolute professional. Their ability to bridge the gap between complex engineering and user-centric design is rare and invaluable.',
-    avatar: 'https://i.pravatar.cc/150?u=sarah'
-  },
-  {
-    id: '2',
-    name: 'Marcus Thorne',
-    role: 'Founder',
-    company: 'EcoTrack',
-    content: 'Delivered our MVP 2 weeks ahead of schedule with code that was clean, tested, and highly scalable. Highly recommended.',
-    avatar: 'https://i.pravatar.cc/150?u=marcus'
-  }
-];
 
-export const BLOG_POSTS: BlogPost[] = [
-  {
-    id: '1',
-    title: 'Scaling React Apps for 1M+ Users',
-    excerpt: 'Architectural patterns and performance bottlenecks you need to know before going live.',
-    date: 'March 15, 2024',
-    readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800',
-    tags: ['Architecture', 'React']
-  },
-  {
-    id: '2',
-    title: 'The Future of Serverless Architecture',
-    excerpt: 'Why edge computing is changing the way we think about backend infrastructure.',
-    date: 'February 28, 2024',
-    readTime: '6 min read',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800',
-    tags: ['Cloud', 'DevOps']
-  }
-];
+
+

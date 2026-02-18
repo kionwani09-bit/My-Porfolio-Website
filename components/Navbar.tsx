@@ -29,10 +29,7 @@ const Navbar: React.FC = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="bg-indigo-600 p-2 rounded-lg group-hover:bg-indigo-500 transition-colors">
-            <Code2 className="w-6 h-6 text-white" />
-          </div>
-          <span className="text-xl font-bold font-heading tracking-tight">DEV<span className="text-indigo-500">FLOW</span></span>
+          <span className="text-xl font-bold font-heading tracking-tight">RE<span className="text-indigo-500">MO</span></span>
         </a>
 
         {/* Desktop Menu */}

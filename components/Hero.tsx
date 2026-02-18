@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(100);
 
-  const titles = ["Junior Frontend Engineer", "Web Developer"];
+  const titles = ["Creative Freelancer", "Web Developer"];
 
   // Typewriter effect logic
   useEffect(() => {
@@ -50,17 +50,12 @@ const Hero: React.FC = () => {
         View Projects
         <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
       </a>
-      <a 
-        href="#contact" 
-        className="flex-1 sm:flex-none px-8 py-4 border border-indigo-500/30 bg-indigo-500/5 hover:bg-indigo-500/10 text-white rounded-xl font-bold transition-all flex items-center justify-center gap-2"
-      >
-        Hire Me
-        <MessageSquare className="w-5 h-5" />
-      </a>
+    <a href="https://drive.google.com/file/d/1d9NG1vpuK6vNOuXGW02YD-xxrAAoSY36/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none">
       <button className="w-full sm:w-auto px-8 py-4 glass hover:bg-white/10 text-white rounded-xl font-bold transition-all flex items-center justify-center gap-2">
         Download CV
         <Download className="w-5 h-5" />
       </button>
+      </a>
     </div>
   );
 
@@ -68,8 +63,8 @@ const Hero: React.FC = () => {
     <div className="relative group animate-in zoom-in duration-1000">
       <div className="relative z-10 glass rounded-3xl overflow-hidden border-white/10 aspect-[4/3] max-w-[450px] mx-auto lg:max-w-none lg:max-h-[450px]">
         <img 
-          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000" 
-          alt="Abdiaziz's Workspace" 
+          src="https://richardremo.wuaze.com/wp-content/uploads/2025/05/banner-02-912x1024.jpg" 
+          alt="Richard Remo Photo" 
           className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-60" />
@@ -100,7 +95,7 @@ const Hero: React.FC = () => {
             {/* Title & Name */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight">
-                Hi, I'm <span className="gradient-text">Abdiaziz</span>
+                Hi, I'm <span className="gradient-text">Remo</span>
               </h1>
               
               <div className="min-h-[1.2em]">

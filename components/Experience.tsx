@@ -13,7 +13,6 @@ const Experience: React.FC = () => {
             <h3 className="text-4xl md:text-5xl font-bold">Work <span className="text-slate-500">Experience</span></h3>
           </div>
           <p className="text-slate-400 max-w-md text-sm md:text-right">
-            A track record of building impactful digital products and leading engineering teams to success.
           </p>
         </div>
 

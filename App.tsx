@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -50,15 +49,10 @@ const App: React.FC = () => {
       </main>
 
       <footer className="py-12 border-t border-white/5 bg-slate-950">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+        <div className="max-w-7xl mx-auto px-6 text-center">
           <div className="space-y-2">
-            <span className="text-xl font-bold font-heading">DEV<span className="text-indigo-500">FLOW</span></span>
+            <span className="text-xl font-bold font-heading">RE<span className="text-indigo-500">MO</span></span>
             <p className="text-sm text-slate-500">© 2026 All rights reserved. Built with passion.</p>
-          </div>
-          <div className="flex gap-8 text-sm text-slate-400">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-            <a href="#contact" className="hover:text-white transition-colors">Hire Me</a>
           </div>
         </div>
       </footer>
