@@ -4,41 +4,41 @@ import { Project, SkillCategory, Testimonial, BlogPost, Education, Experience } 
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'FinTech Dashboard 2.0',
-    description: 'High-performance real-time financial monitoring platform.',
-    problem: 'Clients struggled with slow load times and inaccurate real-time data visualization during market volatility.',
-    solution: 'Implemented a WebSocket-driven architecture with React and D3.js, leveraging a Redis cache layer for microsecond response times.',
-    impact: 'Reduced data latency by 65% and increased user engagement by 40%.',
-    tech: ['React', 'TypeScript', 'Node.js', 'Redis', 'D3.js', 'PostgreSQL'],
-    image: 'https://images.unsplash.com/photo-1551288049-bbda48658a7d?auto=format&fit=crop&q=80&w=800',
+    title: 'Inventory Management System',
+    description: 'Developed a full stack inventory management system to help small businesses track products, stock levels, and low-stock alerts. Implemented full CRUD operations, data validation, and an admin dashboard..',
+    problem: 'Small businesses often rely on manual record-keeping or basic spreadsheets to manage inventory, which leads to inaccurate stock records, frequent stockouts or overstocking, limited visibility into real-time inventory levels, and costly operational inefficiencies.',
+    solution: 'To address these challenges, I developed a full-stack inventory management system that provides a centralized digital platform for tracking products and stock levels in real time.',
+    impact: 'The solution significantly improves inventory accuracy and operational efficiency by reducing manual errors and preventing stock-related losses.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Rest API', 'JWT Authentication'],
+    image: 'https://abdiaziz-portfolio-gray.vercel.app/projects_image/inventoryMock.png',
     githubUrl: '#',
-    liveUrl: '#',
+    liveUrl: 'https://inventory-manager-two-pi.vercel.app/',
     category: 'Fullstack'
   },
   {
     id: '2',
-    title: 'EcoSphere SaaS',
-    description: 'B2B platform for sustainability reporting and carbon footprint tracking.',
-    problem: 'Enterprises lacked a centralized system to audit environmental impact across multiple global branches.',
-    solution: 'Built a scalable microservices-based application using AWS Lambda and GraphQL for flexible data querying.',
-    impact: 'Helped 15+ Fortune 500 companies achieve ISO-14001 compliance.',
-    tech: ['Next.js', 'GraphQL', 'AWS', 'Python', 'Tailwind'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+    title: 'DreamHome – Real Estate Platform',
+    description: 'Created a real estate web application where users can browse properties, view details, and contact agents. Implemented responsive layouts, property listings, and dynamic routing.',
+    problem: 'Many real estate businesses struggle with limited online presence and outdated property listing methods, making it difficult for potential buyers or renters to easily browse available properties, access detailed information, and directly connect with agents.',
+    solution: 'To address this, I developed a real estate web application that enables users to browse property listings, view detailed property information, and seamlessly contact agents.',
+    impact: 'The application enhances property visibility, improves user engagement, and streamlines communication between clients and agents.',
+    tech: ['React', 'TypeScript', 'Express', 'Node.js', 'Tailwind CSS'],
+    image: 'https://abdiaziz-portfolio-gray.vercel.app/projects_image/dreamhomeMock.png',
     githubUrl: '#',
-    liveUrl: '#',
-    category: 'Fullstack'
+    liveUrl: 'https://dreamhomes3.netlify.app/',
+    category: 'Frontend'
   },
   {
     id: '3',
-    title: 'NexGen E-Commerce',
-    description: 'Headless commerce solution optimized for Core Web Vitals.',
-    problem: 'Existing mobile conversions were low due to poor performance on slow connections.',
-    solution: 'Engineered a PWA using Remix and Shopify Storefront API with optimized image loading and edge caching.',
-    impact: 'Achieved Lighthouse scores of 100/100 and boosted mobile conversion by 25%.',
-    tech: ['Remix', 'Shopify API', 'Vercel', 'Tailwind CSS'],
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800',
+    title: 'SpendWise',
+    description: 'Built an expense and income tracking application that allows users to record transactions, categorize expenses, and view summaries. Focused on clean UX and accurate data handling.',
+    problem: 'Individuals and small business owners often struggle to effectively track their income and expenses, relying on manual records or scattered tools that lack structure and clarity.',
+    solution: 'To address this challenge, I built an expense and income tracking application that enables users to record transactions, categorize expenses, and view clear financial summaries.',
+    impact: 'The application empowers users with better financial visibility and control by providing organized, real-time insights into their income and spending patterns.',
+    tech: ['React', 'TypeScript', 'Express', 'Node.js', 'Tailwind CSS'],
+    image: 'https://abdiaziz-portfolio-gray.vercel.app/projects_image/spendwiseMock.png',
     githubUrl: '#',
-    liveUrl: '#',
+    liveUrl: 'https://spendwise-1.vercel.app/',
     category: 'Frontend'
   }
 ];
@@ -99,7 +99,7 @@ export const EXPERIENCE: Experience[] = [
       'Implemented automated CI/CD pipelines, increasing deployment frequency by 300%.',
       'Mentored junior developers, resulting in a 20% increase in team sprint velocity.'
     ],
-    tech: ['Next.js', 'TypeScript', 'AWS', 'Docker']
+    tech: ['Next.js', 'TypeScript', 'Node.js', 'Express', 'MongoDB',]
   },
 
 ];
